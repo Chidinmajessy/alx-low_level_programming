@@ -1,7 +1,7 @@
 #include <stdio.h> 
 
 /**
-* main - print the string in the input function
+* main - print the size of many var types
 *
 * Return: 0
 */
