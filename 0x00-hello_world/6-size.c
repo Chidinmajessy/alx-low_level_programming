@@ -1,7 +1,7 @@
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
-* main - print the string in the input function
+* main - print the size of many var types
 *
 * Return: 0
 */
@@ -9,13 +9,14 @@ int main(void)
 {
 	char c;
 	int i;
-	long int b;
-	long long int d;
-	float e;
+	long int li;
+	long long int lli;
+	float f;
 
-	printf("size of a char: %d byte(s)\n", sizeof(a));
-	printf("size of an int: %d byte(s)\n", sizeof(i));
-	printf("size of a long int: %byte(s)\n", sizeof(b));
-	printf("size of a long long int: %d byte(s)\n", sizeof(d));
+	printf("Size of a char: %d byte(s)\n", sizeof(c));
+	printf("Size of an int: %d byte(s)\n", sizeof(i));
+	printf("Size of a long int: %d byte(s)\n", sizeof(li));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(lli));
+	printf("Size of a float: %d byte(s)\n", sizeof(f));
 	return (0);
 }
