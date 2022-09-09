@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-* main - prints the string in the input function 
-* 
+* main - prints the string in the input function
+*
 * Return: 0
 */
 int main(void)
