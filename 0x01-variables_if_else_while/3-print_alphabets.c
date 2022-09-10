@@ -14,7 +14,7 @@ int main(void)
 	putchar(low);
 	for (low = 'A'; low <= 'Z'; low++)
 	putchar(low);
-	putchat('\n');
+	putchar('\n');
 
-	return(0);
+	return (0);
 }
