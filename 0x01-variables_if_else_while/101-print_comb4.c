@@ -21,7 +21,7 @@ for (k = 50; k <= 58; k++)
 	putchar(b);
 	putchar(d);
 	putchar(k);
-	if (b != 55 || d != 56)
+	if (b != 53 || d != 54 || k !=56)
 {
 	putchar(',');
 	putchar(' ');
