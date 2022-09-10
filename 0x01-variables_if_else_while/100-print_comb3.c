@@ -8,19 +8,24 @@
  */
 
 int main(void)
+	
 {
-
-	int d;
-	for (d = 0; d < 100; d++)
+	int b, d;
+	for (b = 48; b <= 56; b++)
 {	
-	putchar((d / 10) + '0'
-};
-	putchar((d % 10) + '0'
-
-	if (d != 99)
+	for (d = 49; d <= 57; d++)
+{
+	if (d> b)
+{
+	putchar(b);
+	putchar(d);
+	if (b != 56 || d != 57)
 {
 	putchar(',');
 	putchar(' ');
+}
+}
+}
 }
 putchar('\n');
 return (0);
