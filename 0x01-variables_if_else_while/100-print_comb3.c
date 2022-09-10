@@ -9,12 +9,12 @@
 
 int main(void)
 {
-	int b, d;
-	for (b = 48; b <= 56; b++)
-{	
-	for (d = 49; d <= 57; d++)
+int b, d;
+for (b = 48; b <= 56; b++)
 {
-	if (d> b)
+for (d = 49; d <= 57; d++)
+{
+	if (d > b)
 {
 	putchar(b);
 	putchar(d);
