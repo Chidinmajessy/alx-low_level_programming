@@ -1,16 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-
 #include <stdio.h>
 
 /**
-
-* main - print if the number is positive, zero or negative
-
+* main - Entry point
 *
-
 * return: 0
-
 */
 
 int main(void)
@@ -25,7 +20,6 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	L = n % 10;
 
-	if (l
 	if(L > 5)
 		printf("%s %d is %d and is greater than 5\n", str, n, L);
 	else if (L == 0)
