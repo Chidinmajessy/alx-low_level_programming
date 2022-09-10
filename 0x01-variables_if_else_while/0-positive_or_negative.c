@@ -1,5 +1,5 @@
 #include <stblib.h>
-#include < time.h>
+#include <time.h>
 #include <stdio.h>
 /**
 * main - print if the number is positive, zero or negative
@@ -20,6 +20,7 @@ if (n > 0)
 else if (n == 0 )
 {
 	printf("%l is zero\n", n);
+}
 else if (n < 0)
 {
 	printf("%l is negative\n", n);
