@@ -7,11 +7,8 @@
 *
 * return: 0
 */
-
 int main(void)
-
 {
-
 	int n;
 	int L;
 	char str[] = "Last digit of";
