@@ -8,7 +8,6 @@
  */
 
 int main(void)
-	
 {
 	int b, d;
 	for (b = 48; b <= 56; b++)
