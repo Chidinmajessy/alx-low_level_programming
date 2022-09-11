@@ -12,21 +12,19 @@ int main(void)
 int g = 0;
 int b;
 int d;
+int k;
 
-while (g <= 9)
+while (g <= 999)
 {
-b = 0;
-while (b <= 9)
+b = (g / 100 + '0');
+d = (g / 10% 10 + '0');
+k = (g % 10 + '0');
+if ((b < d) && (d < k))
 {
-d = 0;
-while (d <= 9)
-{
-if (g != b && g < b && b != d && b < d)
-{
-	putchar(g + 48);
-	putchar(b + 47);
-	putchar(d + 46);
-	if (g + b + d != 24)
+	putchar(g);
+	putchar(b);
+	putchar(d);
+	if (g != 789)
 {
 	putchar(',');
 	putchar(' ');
@@ -34,11 +32,7 @@ if (g != b && g < b && b != d && b < d)
 }
 ++g;
 }
-++b;
-}
-++d;
-}
-putchar('\n');
+	putchar('\n');
 return (0);
 }
 
