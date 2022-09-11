@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-int main(void)
+main(void)
 
 int g = 0;
 int b;
@@ -19,7 +19,7 @@ while (g <= 999)
 b = (g / 100 + '0') ;
 d = (g / 10 % 10 + '0');
 k = (g % 10 + '0');
-if ((b < d && (d < k))
+if ((b < d) && (d < k))
 {
 	putchar(b);
 	putchar(d);
