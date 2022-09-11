@@ -9,30 +9,30 @@
 
 int main(void)
 {
+int g = 0;
 int b;
 int d;
 int k;
-for (b = 48; b <= 56; b++)
+	
+while (c <= 999)
 {
-for (d = 49; d <= 57; d++)
-{
-for (k = 50; k <= 58; k++)
-{
-	if (k > d && d > b)
+b = (g / 100 + '0') ;
+d = (g / 10 % 10 + '0');
+k = (g % 10 + '0');
+if ((k > d && d > b)
 {
 	putchar(b);
 	putchar(d);
 	putchar(k);
-	if (b != 56 || d != 57)
+	if (g != 789)
 {
 	putchar(',');
 	putchar(' ');
 }
 }
-}
-}
+c++
 }
 putchar('\n');
 return (0);
-}
+
 
