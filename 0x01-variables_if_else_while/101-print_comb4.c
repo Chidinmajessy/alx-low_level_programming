@@ -31,11 +31,11 @@ if (g != b && g < b && b != d && b < d)
 	putchar(' ');
 }
 }
-g++
+g++;
 }
-b++
+b++;
 }
-d++
+d++;
 }
 	putchar('\n');
 return (0);
