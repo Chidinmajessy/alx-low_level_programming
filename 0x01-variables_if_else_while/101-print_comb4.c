@@ -9,7 +9,9 @@
 
 int main(void)
 {
-int b, d, k;
+int b;
+int d;
+int k;
 for (b = 48; b <= 56; b++)
 {
 for (d = 49; d <= 57; d++)
