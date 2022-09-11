@@ -19,7 +19,7 @@ while (g <= 999)
 b = (g / 100 + '0');
 d = (g / 10 % 10 + '0');
 k = (g % 10 + '0');
-if ((b < d) && (d < k))
+if ((b < d)&&(d < k))
 {
 	putchar(g);
 	putchar(b);
@@ -30,7 +30,7 @@ if ((b < d) && (d < k))
 	putchar(' ');
 }
 }
-++g;
+g++;
 }
 	putchar('\n');
 return (0);
