@@ -9,7 +9,9 @@
 
 int main(void)
 {
-int g = 0, b, d;
+int g = 0;
+int b;
+int d;
 
 while (g <= 9)
 {
@@ -22,8 +24,8 @@ while (d <= 9)
 if (g != b && g < b && b != d && b < d)
 {
 	putchar(g + 48);
-	putchar(b + 48);
-	putchar(d + 48);
+	putchar(b + 47);
+	putchar(d + 46);
 	if (g + b + d != 24)
 {
 	putchar(',');
