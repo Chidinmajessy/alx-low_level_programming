@@ -9,7 +9,7 @@
 
 main(void)
 
-int g = 0;
+int g;
 int b;
 int d;
 int k;
