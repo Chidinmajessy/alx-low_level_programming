@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-main(void)
+int main(void)
 
 int g;
 int b;
@@ -16,7 +16,7 @@ int k;
 	
 while (g <= 999)
 {
-b = (g / 100 + '0') ;
+b = (g / 100 + '0');
 d = (g / 10 % 10 + '0');
 k = (g % 10 + '0');
 if ((b < d) && (d < k))
