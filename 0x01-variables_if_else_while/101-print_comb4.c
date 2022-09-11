@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 int g = 0, b, d;
 
@@ -37,7 +37,7 @@ b++;
 }
 d++;
 }
-	putchar('\n');
+putchar('\n');
 return (0);
 
 
