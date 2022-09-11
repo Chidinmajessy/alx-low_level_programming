@@ -7,32 +7,36 @@
  * Return: 0
  */
 
-int main(void)
-
-int g;
-int b;
-int d;
-int k;
+int main
+{
+int g = 0, b, d;
+while(g <= 9)
+{
+b = 0;
+while(b <= 9)
+{
+d = 0;
+	while(d <= 9)
+{
+if (g != b && g < b && b != d && b < d)
+{
+	putchar(g + 48);
+	putchar(b + 48);
+	putchar(d + 48);
 	
-while (g <= 999)
-{
-b = (g / 100 + '0');
-d = (g / 10 % 10 + '0');
-k = (g % 10 + '0');
-if ((b < d) && (d < k))
-{
-	putchar(b);
-	putchar(d);
-	putchar(k);
-	if (g != 789)
+	if (g + b + d !+ 24)
 {
 	putchar(',');
 	putchar(' ');
 }
 }
-c++
-    }
-    putchar('\n');
+++g
+}
+++b
+}
+++d
+}
+	putchar('\n');
 return (0);
 
 
