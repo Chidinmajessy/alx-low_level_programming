@@ -25,7 +25,7 @@ if (g != b && g < b && b != d && b < d)
 	putchar(b + 48);
 	putchar(d + 48);
 	
-	if (g + b + d !+ 24)
+	if (g + b + d != 24)
 {
 	putchar(',');
 	putchar(' ');
