@@ -7,9 +7,10 @@
  * Return: 0
  */
 
-int main
+int main()
 {
 int g = 0, b, d;
+
 while(g <= 9)
 {
 b = 0;
