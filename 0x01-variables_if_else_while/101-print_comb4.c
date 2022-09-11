@@ -14,7 +14,7 @@ int b;
 int d;
 int k;
 	
-while (c <= 999)
+while (g <= 999)
 {
 b = (g / 100 + '0') ;
 d = (g / 10 % 10 + '0');
