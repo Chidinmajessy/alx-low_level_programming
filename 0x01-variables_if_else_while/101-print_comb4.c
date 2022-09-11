@@ -17,7 +17,7 @@ b = 0;
 while (b <= 9)
 {
 d = 0;
-	while (d <= 9)
+while (d <= 9)
 {
 if (g != b && g < b && b != d && b < d)
 {
