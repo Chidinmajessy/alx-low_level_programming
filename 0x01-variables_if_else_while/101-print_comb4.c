@@ -19,7 +19,7 @@ while (c <= 999)
 b = (g / 100 + '0') ;
 d = (g / 10 % 10 + '0');
 k = (g % 10 + '0');
-if ((k > d && d > b)
+if ((b < d && d < k)
 {
 	putchar(b);
 	putchar(d);
