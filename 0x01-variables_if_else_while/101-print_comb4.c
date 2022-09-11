@@ -8,7 +8,7 @@
  */
 
 int main(void)
-
+{
 int g = 0;
 int b;
 int d;
@@ -21,9 +21,9 @@ d = (g / 10 % 10 + '0');
 k = (g % 10 + '0');
 if ((b < d)&&(d < k))
 {
-	putchar(g);
 	putchar(b);
 	putchar(d);
+	putchar(k);
 	if (g != 789)
 {
 	putchar(',');
@@ -34,6 +34,6 @@ g++;
 }
 	putchar('\n');
 return (0);
-
+}
 
 
