@@ -13,13 +13,13 @@ int g = 0;
 int b;
 int d;
 int k;
-	
-while (c <= 999)
+
+while (g <= 999)
 {
-b = (g / 100 + '0') ;
+b = (g / 100 + '0');
 d = (g / 10 % 10 + '0');
 k = (g % 10 + '0');
-if ((k > d && d > b)
+if ((b < d)&&(d < k))
 {
 	putchar(b);
 	putchar(d);
@@ -30,9 +30,10 @@ if ((k > d && d > b)
 	putchar(' ');
 }
 }
-c++
+g++;
 }
-putchar('\n');
+	putchar('\n');
 return (0);
+}
 
 
