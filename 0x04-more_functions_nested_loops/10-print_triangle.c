@@ -16,7 +16,6 @@ void print_triangle(int size)
 		_putchar('\n');
 	}else
 	{
-		
 		for (inc1 = 1; inc1 <= size; inc1++)
 		{
 			for ((inc2 = size - inc1); inc2 > 0; inc2--)
