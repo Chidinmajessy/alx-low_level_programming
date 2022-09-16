@@ -14,7 +14,7 @@ int main(void)
 	{
 		if (num % divisor == 0)
 		{
-			num /* divisor;
+			num / divisor;
 			divisor = 2;
 		}
 		else
