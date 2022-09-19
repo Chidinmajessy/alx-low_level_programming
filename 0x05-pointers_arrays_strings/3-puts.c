@@ -1,4 +1,4 @@
-#incluede "main.h"
+#include "main.h"
 
 /**
  * _puts - printsa string to stdout
