@@ -1,13 +1,5 @@
-#include <stdio.h>
+#include <stdio.h
 
-/**
- * adds one line of code
- * - only one statement
- * - code should not modify p
- * - not allowed to use a
- * - only the required code should be written
- *
- */
 int main(void)
 {
 	int n;
@@ -16,6 +8,14 @@ int main(void)
 
 	a[2] = 1024;
 	p = &n;
+	/**
+	* code clause:
+	* not allowed to use a
+	* not allowed to modify p
+	* only one statement
+	* nothing else other the lines of code
+	*
+	*/
 *(p + 5) = 98;
 	/* ...so that this prints98\n*/
 	printf("a[2] = %d\n", a[2]);
