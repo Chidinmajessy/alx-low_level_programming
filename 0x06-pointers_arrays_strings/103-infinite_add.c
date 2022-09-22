@@ -1,26 +1,6 @@
 #include "main.h"
 
 /**
- *infinite_add - c function that adds two numbers stored
- *in strings to a buffer
- *Assume that strings are never empty and
- *numbers will always be positive or 0
- *Assumes there are only digits stored in the number strings
- *If result can be stored in the buffer
- *returns a pointer to the result
- *If results cannot be stored in the buffer, returns '0'.
- *@n1: first number to be added
- *@n2: second num ber to be added
- *@r: store result
- *@size_r: size of buffer
- *Return: return pointer to result
- */
-
-char *infinite_add(char *n1, char *n2, char *r, int size_r)
-{
-}
-
-/**
  * add_strings - adds the numbers stored in two strings
  * @n1: the string containing the first number to be added
  * @n2: the string containing the second number to be added
@@ -66,6 +46,22 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
 	else if (tens && r_index < 0)
 		return (0);
 }
+
+/**
+ *infinite_add - c function that adds two numbers stored
+ *in strings to a buffer
+ *Assume that strings are never empty and
+ *numbers will always be positive or 0
+ *Assumes there are only digits stored in the number strings
+ *If result can be stored in the buffer
+ *returns a pointer to the result
+ *If results cannot be stored in the buffer, returns '0'.
+ *@n1: first number to be added
+ *@n2: second num ber to be added
+ *@r: store result
+ *@size_r: size of buffer
+ *Return: return pointer to result
+ */
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
