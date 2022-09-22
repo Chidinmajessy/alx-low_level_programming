@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/**
+* main - Entry point
+*/
 int main(void)
 {
 int n;
@@ -9,9 +12,6 @@ int *p;
 a[2] = 1024;
 p = &n;
 /*
-* write your line of code here:
-* Remember:
-* - not allowed to use a
 * - not allowed to modify p
 * - only one statement
 * - you are not allowed to code anything else other than this lines of code
