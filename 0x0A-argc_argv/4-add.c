@@ -1,42 +1,49 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <ctype.h>
+#include "main.h"
 #include <string.h>
 
 /**
-* main - adds two positive number
-* @argc: number of arguments
-* @argv: array of arguents
-*
-* Return: 0 (Success)
-*/
+ * main - adds two positive number
+ * @argc: number of arguments
+ * @argv: array of arguents
+ *
+ * Return: 0 (Success), or 1 (Success)
+ */
+/**
+ * main - adds two positive number
+ * @argc: number of arguments
+ * @argv: array of arguents
+ *
+ * Return: 0 (Success), or 1 (Success)
+ */
 int main(int argc, char *argv[])
 {
-	int sum = 0, i;
+	int sum, num, i, j, k;
 
-	if (argc > 1);
-	{
-		
+	sum = 0;
+
 	for (i = 1; i < argc; i++)
 	{
-		int b;
-		char *str;
-		
-		str = argv[i];
-		for (b = 0; str[b] != '\0'; b++)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			if (str[b] > 57 || str[b] < 48)
+			if (argv[i][j] > '9' || argv[i][j] < '0')
 			{
-				printf("Error\n");
+				puts("Error");
 				return (1);
 			}
 		}
 	}
-	}
-	for (i = 1; i < argc; i++)
+
+	for (k = 1; k < argc; k++)
 	{
-		sum = _atoi(argv[i]);
+		num = _atoi(argv[k]);
+		if (num >= 0)
+		{
+			sum += num;
+		}
 	}
+
 	printf("%d\n", sum);
 	return (0);
 }
