@@ -8,35 +8,35 @@
 * @argc: number of arguments
 * @argv: array of arguents
 *
-* Return: 0 (Success), or 1 (Success)
+* Return: 0 (Success)
 */
 int main(int argc, char *argv[])
 {
-	int sum, num, i, j, k;
+	int sum = 0, i;
 
-	sum = 0;
-
+	if (argc > 1);
+	{
+		
 	for (i = 1; i < argc; i++)
 	{
-		for (j = 0; argv[i][j] != '\0'; j++)
+		int b;
+		char *str;
+		
+		str = argv[i];
+		for (b = 0; str[b] != '\0'; b++)
 		{
-			if (argv[i][j] > '9' || argv[i][j] < '0')
+			if (str[b] > 57 || str[b] < 48)
 			{
-				puts("Error");
+				printf("Error\n");
 				return (1);
 			}
 		}
 	}
-
-	for (k = 1; k < argc; k++)
-	{
-		num = _atoi(argv[k]);
-		if (num >= 0)
-		{
-			sum += num;
-		}
 	}
-
+	for (i = 1; i < argc; i++)
+	{
+		sum = _atoi(argv[i]);
+	}
 	printf("%d\n", sum);
 	return (0);
 }
