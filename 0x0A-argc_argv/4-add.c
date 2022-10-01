@@ -47,12 +47,12 @@ int _atoi(char *s)
 }
 
 /**
-* main - adds two positive number
-* @argc: number of arguments
-* @argv: array of arguents
-*
-* Return: 0 (Success), or 1 (Success)
-*/
+ * main - adds two positive number
+ * @argc: number of arguments
+ * @argv: array of arguents
+ *
+ * Return: 0 (Success), or 1 (Success)
+ */
 int main(int argc, char *argv[])
 {
 	int sum, num, i, j, k;
