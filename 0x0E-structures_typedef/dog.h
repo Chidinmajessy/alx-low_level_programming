@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 #ifndef DOG_H
 #define DOG_H
 
@@ -32,4 +29,3 @@ char *_strcpy(char *dest, char *src);
 int _strlen(char *s);
 
 #endif
->>>>>>> effeed06a4836dbcf4e4ac3ad15c45d5d90ad74e
