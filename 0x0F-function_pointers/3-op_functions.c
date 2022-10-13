@@ -8,9 +8,9 @@
  */
 
 int op_add(int a, int b)
- {
+{
 	return (a + b);
- }
+}
 
 /**
  * op_sub - calculates the difference of two integers
